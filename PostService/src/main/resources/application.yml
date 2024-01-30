@@ -1,0 +1,4 @@
+# application.yml
+user:
+  service:
+    url: http://user-service   # Assuming you'll have service discovery (Eureka) to resolve the URL
