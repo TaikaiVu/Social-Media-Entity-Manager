@@ -1,10 +1,13 @@
 Social Media Entity Manager
 
-A backend microservice meticulously engineered to orchestrate efficient interactions among entities in a social media application. This project, developed using Spring, MongoDB, and Docker, aims to provide a robust and secure foundation for managing social media entities.
+A backend microservice that is designed to handle interactions among entities in a social media application. This project was developed using Spring, MongoDB, and Docker, which aims to provide a robust and secure foundation for managing social media entities.
 
 Features:
 
-Entity Interaction: The microservice is designed to efficiently orchestrate interactions among various entities within the social media application, enhancing overall user experience.
+Entity Interaction: The microservice is designed to efficiently orchestrate interactions among various entities within the social media application: 
+1. Add friend request/accept add request
+2. User make a like/comment on a post
+3. Users receive notifications for interactions: Add firend request, new post, like and comment.
 
 JWT Authentication with Keycloak: Implemented JWT (JSON Web Token) authentication, with Keycloak serving as the issuer URI. This ensures secure user authentication, adding an extra layer of protection to the application.
 
