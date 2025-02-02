@@ -6,12 +6,7 @@ Each microservices are designed to interact with each other and act as the backb
 
 
 
-Features:
-
-Entity Interaction: The microservice is designed to efficiently orchestrate interactions among various entities within the social media application: 
-1. Add friend request/accept add request
-2. User make a like/comment on a post
-3. Users receive notifications for interactions: Add firend request, new post, like and comment.
+ acts as an API Gateway using Spring Cloud Gateway, Eureka Service Discovery, and OAuth2 (Keycloak) to route, authenticate, and load-balance requests across microservices
 
 
 
